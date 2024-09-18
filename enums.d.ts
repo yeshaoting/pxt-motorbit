@@ -71,4 +71,49 @@ declare const enum Pins {
 declare namespace IrRemote {
 }
 
+declare const enum IrRemoteButton {
+    //% block=A
+    A = 69,
+    //% block=B
+    B = 70,
+    //% block=C
+    C = 71,
+    //% block=D
+    D = 68,
+    //% block=UP
+    UP = 64,
+    //% block=+
+    Add = 67,
+    //% block=LEFT
+    Left = 7,
+    //% block=OK
+    Ok = 21,
+    //% block=RIGHT
+    Right = 9,
+    //% block=DOWN
+    Down = 25,
+    //% block=-
+    EQ = 13,
+    //% block=0
+    NUM0 = 22,
+    //% block=1
+    NUM1 = 12,
+    //% block=2
+    NUM2 = 24,
+    //% block=3
+    NUM3 = 94,
+    //% block=4
+    NUM4 = 8,
+    //% block=5
+    NUM5 = 28,
+    //% block=6
+    NUM6 = 90,
+    //% block=7
+    NUM7 = 66,
+    //% block=8
+    NUM8 = 82,
+    //% block=9
+    NUM9 = 74,
+}
+
 // Auto-generated. Do not edit. Really.
